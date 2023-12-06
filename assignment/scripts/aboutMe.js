@@ -65,13 +65,24 @@ if (adventurous){
   result = "How about we stay home?"
 }
 
-console.log (result);
+console.log ( "Value of result:",result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+
+let diceRoll = "Try again later.";
+if (luckyNumber === 2 && adventurous){
+  diceRoll = "Roll the dice!"
+} else {
+  diceRoll = "Try again later."
+}
+console.log( "Value of diceRoll:",diceRoll );
+//confirmed console.log in browser displayed "Roll the dice!" when I updated the
+  //lucky number variable to be 2 and the adventurous boolean to be true
+
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -82,6 +93,16 @@ console.log (result);
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
+let petStatus;
+if ( pets < allowedPets ){
+  petStatus = "I can have more pets"
+} else if (pets === allowedPets){
+  petStatus = "I have enough pets"
+} else {
+  petStatus = "Oh no, I have too many pets!"
+}
+
+console.log( "The petStatus is:", petStatus);
 
 // STRETCH GOALS:
 
