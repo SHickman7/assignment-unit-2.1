@@ -28,6 +28,8 @@ console.log('The value of introduction is:',introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = false;
+console.log('The value of adventurous is:', adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
