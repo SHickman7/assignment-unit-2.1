@@ -46,6 +46,8 @@ let friendsPets = 2;
 console.log( "The number of pets my friend has is:", friendsPets);
 
 // 10 - Add two pets to your `pets` variable
+pets += 2;
+console.log ( "My updated number of pets is:", pets);
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
