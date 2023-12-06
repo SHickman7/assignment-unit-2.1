@@ -42,6 +42,8 @@ let pets = 0;
 console.log( "The number of pets I currently have is:", pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 2;
+console.log( "The number of pets my friend has is:", friendsPets);
 
 // 10 - Add two pets to your `pets` variable
 
