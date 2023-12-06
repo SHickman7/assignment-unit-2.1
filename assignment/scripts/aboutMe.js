@@ -38,6 +38,8 @@ console.log( "Some of my favorite foods are: ",food );
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 0;
+console.log( "The number of pets I currently have is:", pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
