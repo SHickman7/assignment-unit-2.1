@@ -50,6 +50,8 @@ pets += 2;
 console.log ( "My updated number of pets is:", pets);
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 2;
+console.log( "The number of allowed pets is:",allowedPets);
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
