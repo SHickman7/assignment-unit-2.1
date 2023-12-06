@@ -24,15 +24,17 @@ console.log( "My lucky number is", luckyNumber );
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!';
-console.log('The value of introduction is:',introduction);
+console.log( "The value of introduction is:",introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = false;
-console.log('The value of adventurous is:', adventurous);
+console.log( "The value of adventurous is:", adventurous );
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'steak fajitas, walleye, buffalo wings, pasta';
+console.log( "Some of my favorite foods are: ",food );
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
