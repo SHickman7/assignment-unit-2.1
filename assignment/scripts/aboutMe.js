@@ -171,6 +171,26 @@ console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
+//from MDN Web Docs:
+/*  The conditional (ternary) operator is the only JavaScript operator that takes three operands: 
+a condition followed by a question mark (?), then an expression to execute if the condition is truthy 
+followed by a colon (:), and finally the expression to execute if the condition is falsy. 
+This operator is frequently used as an alternative to an if...else statement. */
+
+//Original Question 12 instructions
+// 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
+
+let anotherResult;  //created variable called anotherResult to differentiate from original
+
+anotherResult = adventurous? "Adventures are great!" : "How about we stay home?";
+console.log(anotherResult);
+
+
+
+
 
 
 
