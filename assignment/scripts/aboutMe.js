@@ -112,6 +112,29 @@ console.log( "The petStatus is:", petStatus);
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 
+let mostPets;
+
+if (pets > friendsPets){
+  mostPets = pets;
+  console.log('In this scenario, I have the most pets')
+} else if (pets < friendsPets){
+  mostPets = friendsPets;
+  console.log('In this scenario, my friend has the most pets')
+} else if (pets === 0 && friendsPets === 0) {
+  mostPets = pets;
+  console.log('In this scenario, neither my friend or I have any pets')
+} else {
+  mostPets = pets;
+  console.log( 'In this scenario, my friend and I have the same number of pets and that number is > 0')
+}
+
+console.log('The person who has the most pets has: ' + mostPets + ' pets.')
+
+//regarding the code above, I probably wouldn't have had to include the 
+    //second else if statement, but I thought it would be worth noting if
+    //neither of us had any pets.
+
+
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
@@ -120,6 +143,30 @@ console.log( "The petStatus is:", petStatus);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+
+let luckyResult;
+
+switch(luckyNumber){
+  case 1:
+    luckyResult = "First is the worst";
+    break;
+  case 2:
+    luckyResult = "Second is the best";
+    break;
+  case 3:
+    luckyResult = "Third is the one with the polka dot dress";
+    break;
+  default:
+    luckyResult = "Luck is what happens when preparation meets opportunity";
+}
+
+console.log(luckyResult);
+
+//Tested the various scenarios above to confirm the correct luckyResult was console.logged for each
+
+
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
